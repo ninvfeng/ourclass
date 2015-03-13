@@ -40,3 +40,16 @@
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 ```
+
+###目录结构
+├─ourclass 根目录
+│  ├─Application       		应用目录
+│  │  ├─Common       		应用目录 			    
+│  │  │  ├─Conf    			
+│  │  │  │	├─config.php    配置文件
+│  │  ├─Home     			
+│  │  │  ├─Controller  		控制器目录(PHP代码)
+│  │  │  ├─View  			视图目录(HTML文件)
+│  ├─Public       			公共资源目录(css js img 文件)
+│  ├─ThinkPHP      			thinkphp框架文件
+│
