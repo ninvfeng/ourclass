@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>MyClass | 网站开发班</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/myclass/Public/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/myclass/Public/bootstrap/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/myclass/Public/Home/css/base.css"/>
+    <link rel="stylesheet" href="/ourclass/Public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/ourclass/Public/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/ourclass/Public/Home/css/base.css"/>
     
 </head>
 </head>
@@ -27,7 +27,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="">实习信息</a></li>
+                <li><a data-toggle="modal" data-target="#myModal">实习信息</a></li>
                 <!-- <li><a href="">论坛</a></li>
                 <li><a href="">通信录</a></li>
                 <li><a href="">相册</a></li> -->
@@ -41,7 +41,7 @@
 	<div class="container">
 		<div class="jumbotron">
 		  <h3 style="color:green">信息提交成功！你可以</h3>
-		  <p><a class="btn btn-success" href="#" role="button">一起完善这个网站</a></p>
+		  <p><a class="btn btn-success" href="https://coding.net/u/ninvfeng/p/ourclass/git" role="button">一起完善这个网站</a></p>
 		  <p><a class="btn btn-primary" href="#" role="button" data-toggle="modal" data-target="#myModal">查看全班实习信息</a></p>
 		</div>
 	</div>
@@ -57,8 +57,8 @@
 	        <h4>查看全班同学公开实习情况功能正在紧张开发中......<br><br></h4>
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-primary">意见建议</button>
-	        <button type="button" class="btn btn-success">一起开发</button>
+	        <a href="https://coding.net/u/ninvfeng/p/ourclass/topic/all" type="button" class="btn btn-primary">意见建议</a>
+	        <a href="https://coding.net/u/ninvfeng/p/ourclass/git" type="button" class="btn btn-success">一起开发</a>
 	        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
 	      </div>
 	    </div>
@@ -69,10 +69,10 @@
 <!-- 底部 -->
 
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/myclass/Public/jquery.min.js"><\/script>')</script>
-<script src="/myclass/Public/bootstrap/js/bootstrap.min.js"></script>
+<script>window.jQuery || document.write('<script src="/ourclass/Public/jquery.min.js"><\/script>')</script>
+<script src="/ourclass/Public/bootstrap/js/bootstrap.min.js"></script>
 <footer class="footer">
-    <p>Design by ninvfeng</p>
+    <p>Design by ninvfeng 源码: <a href="https://coding.net/u/ninvfeng/p/ourclass/git">Coding</a> | <a href="https://github.com/ninvfeng/ourclass">GitHub</a></p>
 </footer>
 </body>
 </html>

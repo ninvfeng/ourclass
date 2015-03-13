@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>MyClass | 网站开发班</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/myclass/Public/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/myclass/Public/bootstrap/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/myclass/Public/Home/css/base.css"/>
+    <link rel="stylesheet" href="/ourclass/Public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/ourclass/Public/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/ourclass/Public/Home/css/base.css"/>
     
-    <link rel="stylesheet" href="/myclass/Public/Home/css/index.css">
+    <link rel="stylesheet" href="/ourclass/Public/Home/css/index.css">
 <block>
 <block name="body">
 <div class="row">
@@ -45,7 +45,7 @@
           <div class="form-group">
             <label for="native_place" class="col-sm-offset-1 col-sm-2 control-label">生源地</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control" id="native_place" name="native_place" placeholder="请输入生源地" required>
+              <input type="text" class="form-control" id="native_place" name="native_place" placeholder="请输入生源地 如:广东高州" required>
             </div>
           </div>
           <div class="form-group">
@@ -62,7 +62,7 @@
           <div class="form-group">
             <label for="address" class="col-sm-offset-1 col-sm-2 control-label">现居住地</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control" id="address" name="address" placeholder="请输入现居住地(详细地址)" required>
+              <input type="text" class="form-control" id="address" name="address" placeholder="请输入现居住地(详细地址) 如在校请填 学校" required>
             </div>
           </div>
           <div class="form-group">
@@ -85,6 +85,25 @@
     </div>
 </div>
 
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">功能开发中...</h4>
+        </div>
+        <div class="modal-body">
+          <h4>查看全班同学公开实习情况功能正在紧张开发中......<br><br></h4>
+        </div>
+        <div class="modal-footer">
+          <a href="https://coding.net/u/ninvfeng/p/ourclass/topic/all" type="button" class="btn btn-primary">意见建议</a>
+          <a href="https://coding.net/u/ninvfeng/p/ourclass/git" type="button" class="btn btn-success">一起开发</a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </head>
 </head>
 <body>
@@ -102,7 +121,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="">实习信息</a></li>
+                <li><a data-toggle="modal" data-target="#myModal">实习信息</a></li>
                 <!-- <li><a href="">论坛</a></li>
                 <li><a href="">通信录</a></li>
                 <li><a href="">相册</a></li> -->
@@ -117,8 +136,8 @@
 <!-- 底部 -->
 
 <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/myclass/Public/jquery.min.js"><\/script>')</script>
-<script src="/myclass/Public/bootstrap/js/bootstrap.min.js"></script>
+<script>window.jQuery || document.write('<script src="/ourclass/Public/jquery.min.js"><\/script>')</script>
+<script src="/ourclass/Public/bootstrap/js/bootstrap.min.js"></script>
 <footer class="footer">
     <p>Design by ninvfeng</p>
 </footer>
