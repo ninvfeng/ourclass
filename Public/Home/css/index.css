@@ -1,0 +1,8 @@
+body{background:#fff;}
+.myclass-form{margin-top:20px;padding:30px;}
+@media screen and (max-width: 1024px) {
+    .left{display:none;}
+}
+@media screen and (max-width: 1200px) {
+    img{width:100%;height:auto;}
+}
